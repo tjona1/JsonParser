@@ -14,6 +14,7 @@ import java.util.Map;
 import static com.example.JsonParser.CreateStaff.createStaff;
 
 
+
 public class JsonParserApplication {
 
 	public static void main(String[] args) {
@@ -22,7 +23,7 @@ public class JsonParserApplication {
 
 				ObjectMapper mapper = new ObjectMapper();
 
-				Staff staff = createStaff();
+				Staff staff =createStaff();
 
 				try {
 
